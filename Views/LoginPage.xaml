@@ -64,6 +64,7 @@
                                 </VerticalStackLayout>
                                 
                                 <Button Text="Iniciar Sesión" 
+                                        Command="{Binding LoginCommand}"
                                         BackgroundColor="#1976D2"
                                         TextColor="Azure"
                                         CornerRadius="10"

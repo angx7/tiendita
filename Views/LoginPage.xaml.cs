@@ -15,4 +15,11 @@ public partial class LoginPage : ContentPage
         InitializeComponent();
         BindingContext = new LoginViewModel(new AuthService(), this);
     }
+
+    public LoginPage(LoginViewModel vm)
+    {
+        InitializeComponent();
+        BindingContext = vm;
+    }
+    
 }

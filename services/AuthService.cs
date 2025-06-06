@@ -9,7 +9,7 @@ public class AuthService
 {
     // Paquete nugget 
     private readonly HttpClient _httpClient;
-    private const String BaseUrl = "127.0.0.1:3000/api";
+    private const String BaseUrl = "https://a453-2a09-bac5-4b0a-63c-00-9f-29.ngrok-free.app/api";
 
     public AuthService()
     {
